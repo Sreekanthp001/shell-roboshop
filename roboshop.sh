@@ -2,7 +2,7 @@
 
 AMI_ID="ami-09c813fb71547fc4f"
 SG_ID="sg-0966b3c93f0131a22" # replace with your SG ID
-INSTANCE=("mongodb" "redis" "mysql" "rabbitmq" "catalogue" "user" "cart" "shipping" "payment" "dispatch" "frontend")
+INSTANCES=("mongodb" "redis" "mysql" "rabbitmq" "catalogue" "user" "cart" "shipping" "payment" "dispatch" "frontend")
 ZONE_ID="Z0897598ZW3D3944XUN0" # replace with your ZONE ID
 DOMAIN_NAME="sree84s.site" # replace with your domain
 
@@ -20,3 +20,5 @@ do
     fi
     echo "$instance IP address: $IP"
 done
+
+
